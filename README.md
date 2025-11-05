@@ -1,4 +1,4 @@
-# Jeu-du-pendu.V2
+<!-- 🎯 Jeu du pendu modifié : affiche le résultat même si perdu -->
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
@@ -249,6 +249,7 @@ function guessLetter() {
         endGame();
     } else if(errors >= maxErrors) {
         messageDiv.textContent = "💀 Perdu ! Le mot était : " + secretWord.toUpperCase();
+        resultImage.style.display = "block"; // ✅ affiche aussi le résultat même si perdu
         endGame();
     }
 }
@@ -284,4 +285,3 @@ letterInput.focus();
 </script>
 </body>
 </html>
-
