@@ -1,5 +1,4 @@
 # Jeu-du-pendu.V2
-<!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
@@ -286,5 +285,3 @@ letterInput.focus();
 </body>
 </html>
 
-
-google-site-verification: googlef635895ff3dbf79d.html
