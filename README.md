@@ -135,7 +135,7 @@
     <!-- ✅ Résultat avec photo + date -->
     <div id="resultImage">
         <img src="https://iili.io/KZjwKV1.jpg" alt="Résultat">
-        <div id="babyDate">Prévu pour le 22/01/2016 💖</div>
+        <div id="babyDate">Prévu pour le 22/01/2026 💖</div>
     </div>
 
     <button id="restartBtn" style="display:none;">Rejouer 🔁</button>
